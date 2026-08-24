@@ -5,8 +5,8 @@ body {
 
 
 #titulo {
-    left: 110px;
-    top: 120px;
+    left: 80px;
+    top: 115px;
     position: absolute;
     color: #D4AF37;
 
@@ -17,4 +17,106 @@ body {
     top: 150px;
     position: absolute;
     color: #B8A98F;
+}
+
+#index {
+    left: 50px;
+    top: 7vh;
+    position: absolute;
+    color: #E5D9C3;
+    font-size:21px;
+
+
+}
+
+#PI {
+    left: 180px;
+    top: 7vh;
+    position: absolute;
+    color: #E5D9C3;
+    font-size: 21px;
+}
+
+#historia {
+    left: 360px;
+    top: 7vh;
+    position: absolute;
+    color: #E5D9C3;
+    font-size: 21px;
+}
+
+#OJ {
+    left: 500px;
+    top: 7vh;
+    position: absolute;
+    color: #E5D9C3;
+    font-size: 21px;
+}
+
+#creditos {
+    left: 690px;
+    top: 7vh;
+    position: absolute;
+    color: #E5D9C3;
+    font-size: 21px;
+}
+
+#sobre {
+    left: 104px;
+    top: 200px;
+    position: absolute;
+    color: #B8A98F;
+    font-size: 21px;
+    text-align: center;
+    border: 2px solid #1B1715;
+    border-radius: 3px;
+    background-color: #1B1715;
+    width: 510px
+}
+
+
+#sobrem1 {
+    left: -50px;
+    top: 20px;
+    color: #B8A98F;
+    font-size: 15px;
+    position: absolute;
+    border: 2px solid #1B1715;
+    border-radius: 3px;
+    background-color: #1B1715;
+    width: 600px;
+    text-align: start;
+}
+
+#logo {
+    left: 0px;
+    top: -15px;
+    position: absolute;
+    color: #D4AF37;
+    border: 2px solid #3d342f;
+    border-radius: 3px;
+    background-color: #1B1715;
+    width: 100%;
+    height: 75px;
+}
+
+#troer {
+    left: 763px;
+    top: 220px;
+    position: absolute;
+    width: 200px;
+    height: auto
+}
+
+#PCD {
+    left: 772px;
+    top: 177px;
+    position: absolute;
+    color: #B8A98F;
+    font-size: 15px;
+    text-align: center;
+    border: 2px solid #1B1715;
+    border-radius: 3px;
+    background-color: #1B1715;
+    width: 180px
 }
