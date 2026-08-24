@@ -1,60 +1,20 @@
-#index {
-    position: absolute;
-    margin-left: 24%;
-    margin-top: 3vh;
-    background: none;
-    border: none;
-    color: #E8DCC2
-
-}
-#PI{
-    position: absolute;
-    margin-left: 5%;
-    margin-top: 3vh;
-    background: none;
-    border: none;
-    color: #E8DCC2
-
-}
-#OJ{
-    position: absolute;
-    margin-left: 38%;
-    margin-top: 3vh;
-   background: none;
-    border: none;
-    color: #E8DCC2
-
-}
-
-#titulo{
-    position: absolute;
-    margin-left: 8%;
-    margin-top: 30vh;
-    color: #C9A84E
-}
-
-#descricao{
-    position: absolute;
-    margin-left: 7%;
-    margin-top: 36vh;
-    color: #D8C8A8
-}
-
 body {
-    background-color: #0E0D0B;
-}
-
-#secao {
-    width: 10000%;
-    height: 100px;
-    margin-left: -700%;
-    margin-top: -30vh;
-    background-color: #1B1715
+    background-color: #0D0D0D;
 
 }
 
 
+#titulo {
+    left: 110px;
+    top: 120px;
+    position: absolute;
+    color: #D4AF37;
 
+}
 
-
-
+#descricao {
+    left: 103px;
+    top: 150px;
+    position: absolute;
+    color: #B8A98F;
+}
