@@ -27,7 +27,7 @@ body {
 
 #index {
     left: 230px;
-    top: 7vh;
+    top: 5.5vh;
     position: absolute;
     color: #E5D9C3;
     font-size:21px;
@@ -39,7 +39,7 @@ body {
 
 #pi {
     left: 50px;
-    top: 7vh;
+    top: 5.5vh;
     position: absolute;
     color: #E5D9C3;
     font-size: 21px;
@@ -49,7 +49,7 @@ body {
 
 #historia {
     left: 360px;
-    top: 7vh;
+    top: 5.5vh;
     position: absolute;
     color: #E5D9C3;
     font-size: 21px;
@@ -59,7 +59,7 @@ body {
 
 #OJ {
     left: 500px;
-    top: 7vh;
+    top: 5.5vh;
     position: absolute;
     color: #E5D9C3;
     font-size: 21px;    
@@ -69,7 +69,7 @@ body {
 
 #creditos {
     left: 690px;
-    top: 7vh;
+    top: 5.5vh;
     position: absolute;
     color: #E5D9C3;
     font-size: 21px;
@@ -115,12 +115,12 @@ body {
     border: 2px solid #3d342f;
     border-radius: 3px;
     background-color: #1B1715;
-    width: 99%;
+    width: 99.7%;
     height: 75px;
 }
 
 #troer {
-    left: 763px;
+    left: 908.5px;
     top: 165px;
     position: absolute;
     width: 200px;
@@ -129,7 +129,7 @@ body {
 }
 
 #PCD {
-    left: 772px;
+    left: 920px;
     top: 123px;
     position: absolute;
     color: #B8A98F;
@@ -200,7 +200,7 @@ body {
 }
 
 #psdescricaoprime {
-    left: 745px;
+    left: 970px;
     top: 1100px;
     color: #B8A98F;
     font-size: 15px;
@@ -214,7 +214,7 @@ body {
 }
 
 #descricaoprime {
-    left: 642px;
+    left: 870px;
     top: 1135px;
     color: #B8A98F;
     font-size: 13px;
@@ -228,8 +228,8 @@ body {
 }
 
 #pshistoriaprime {
-    left: 745px;
-    top: 1217px;
+    left: 620px;
+    top: 1100px;
     color: #B8A98F;
     font-size: 15px;
     position: absolute;
@@ -242,8 +242,8 @@ body {
 }
 
 #historiaprime {
-    left: 642px;
-    top: 1250px;
+    left: 520px;
+    top: 1135px;
     color: #B8A98F;
     font-size: 13px;
     position: absolute;
@@ -322,7 +322,7 @@ body {
 }
 
 #psdescricaonexos {
-    left: 745px;
+    left: 970px;
     top: 617px;
     color: #B8A98F;
     font-size: 15px;
@@ -336,7 +336,7 @@ body {
 }
 
 #descricaonexos {
-    left: 642px;
+    left: 870px;
     top: 650px;
     color: #B8A98F;
     font-size: 13px;
@@ -350,8 +350,8 @@ body {
 }
 
 #pshistorianexos {
-    left: 745px;
-    top: 750px;
+    left: 620px;
+    top: 617px;
     color: #B8A98F;
     font-size: 15px;
     position: absolute;
@@ -364,8 +364,8 @@ body {
 }
 
 #historianexos {
-    left: 642px;
-    top: 783px;
+    left: 520px;
+    top: 650px;
     color: #B8A98F;
     font-size: 13px;
     position: absolute;
@@ -375,6 +375,26 @@ body {
     width: 315px;
     text-align: start;
     line-height: 16px;
+}
+
+#botaonexosmostrar {
+    left: 79px;
+    top: 658px;
+    position: absolute;
+    background: none;
+    border: 1px;
+    width: 210px;
+    height: 290px;
+}
+
+#botaonexosvoltar {
+    left: 79px;
+    top: 658px;
+    position: absolute;
+    background: none;
+    border: 1px;
+    width: 210px;
+    height: 290px;
 }
 
 #troerfake {
@@ -387,12 +407,13 @@ body {
 }
 
 #statstroer { 
-    left: 290px;
+    left: 260px;
     top: 1621px;
     position: absolute;
     width: 200px;
     height: auto;
     color: #B8A98F;
+    text-align: right
 }
 
 #texttroer {
@@ -406,7 +427,7 @@ body {
 }
 
 #texttroer2 {
-    left: 297px;
+    left: 300px;
     top: 1745px;
     position: absolute;
     width: 200px;
@@ -442,7 +463,7 @@ body {
 }
 
 #psdescricaotroer {
-    left: 745px;
+    left: 970px;
     top: 1595px;
     color: #B8A98F;
     font-size: 15px;
@@ -456,7 +477,7 @@ body {
 }
 
 #descricaotroer {
-    left: 642px;
+    left: 870px;
     top: 1625px;
     color: #B8A98F;
     font-size: 13px;
@@ -470,8 +491,8 @@ body {
 }
 
 #pshistoriatroer {
-    left: 745px;
-    top: 1740px;
+    left: 620px;
+    top: 1595px;
     color: #B8A98F;
     font-size: 15px;
     position: absolute;
@@ -484,8 +505,8 @@ body {
 }
 
 #historiatroer {
-    left: 642px;
-    top: 1770px;
+    left: 520px;
+    top: 1630px;
     color: #B8A98F;
     font-size: 13px;
     position: absolute;
@@ -496,3 +517,146 @@ body {
     text-align: start;
     line-height: 16px;
 }
+
+#logo2 {
+    left: 0px;
+    top: 2000px;
+    position: absolute;
+    color: #D4AF37;
+    border: 2px solid #3d342f;
+    border-radius: 3px;
+    background-color: #1B1715;
+    width: 99.7%;
+    height: 75px;
+}
+
+#creditoscadu {
+    left: 103px;
+    top: 2070px;
+    position: absolute;
+    color: #B8A98F;
+    font-size: 10px;
+
+}
+
+#creditoscharge {
+    left: 850px;
+    top: 2070px;
+    position: absolute;
+    color: #B8A98F;
+    font-size: 10px;
+
+}
+
+
+#anibrutos {
+    left: 80px;
+    top: 660px;
+    position: absolute;
+    width: 200px;
+    height: auto;
+    border: 3px solid rgb(54, 32, 75);
+}
+
+#statsaniBT { 
+    left: 290px;
+    top: 643px;
+    position: absolute;
+    width: 200px;
+    height: auto;
+    color: #B8A98F;
+}
+
+#textaniBT {
+    left: 290px;
+    top: 750px;
+    position: absolute;
+    width: 200px;
+    height: auto;
+    color: #B8A98F;
+    font-size: 13px;
+}
+
+#placaaniBT {
+    left: 93px;
+    top: 617px;
+    position: absolute;
+    color: #B8A98F;
+    font-size: 15px;
+    text-align: center;
+    border: 2px solid #1B1715;
+    border-radius: 3px;
+    background-color: #1B1715;
+    width: 180px;
+}
+
+
+#tituloaniBT {
+    left: 75px;
+    top: 530px;
+    position: absolute;
+    color: #D4AF37;
+    font-size: 15px;
+    text-align: center;
+    border: 2px solid #1B1715;
+    border-radius: 5px;
+    background-color: #1B1715;
+    width: 85%;
+}
+
+#psdescricaoaniBT {
+    left: 970px;
+    top: 617px;
+    color: #B8A98F;
+    font-size: 15px;
+    position: absolute;
+    border: 2px solid #1B1715;
+    border-radius: 3px;
+    background-color: #1B1715;
+    width: 100px;
+    text-align: center;
+    line-height: 16px;
+}
+
+#descricaoaniBT {
+    left: 870px;
+    top: 650px;
+    color: #B8A98F;
+    font-size: 13px;
+    position: absolute;
+    border: 2px solid #1B1715;
+    border-radius: 4px;
+    background-color: #1B1715;
+    width: 315px;
+    text-align: start;
+    line-height: 16px;
+}
+
+#pshistoriaaniBT{
+    left: 620px;
+    top: 617px;
+    color: #B8A98F;
+    font-size: 15px;
+    position: absolute;
+    border: 2px solid #1B1715;
+    border-radius: 3px;
+    background-color: #1B1715;
+    width: 100px;
+    text-align: center;
+    line-height: 16px;
+}
+
+#historiaaniBT {
+    left: 520px;
+    top: 650px;
+    color: #B8A98F;
+    font-size: 13px;
+    position: absolute;
+    border: 2px solid #1B1715;
+    border-radius: 4px;
+    background-color: #1B1715;
+    width: 315px;
+    text-align: start;
+    line-height: 16px;
+}
+
