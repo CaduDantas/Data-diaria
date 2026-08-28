@@ -660,3 +660,226 @@ body {
     line-height: 16px;
 }
 
+#anispeed {
+    left: 80px;
+    top: 1145px;
+    position: absolute;
+    width: 200px;
+    height: auto;
+    border: 3px solid rgb(54, 32, 75);
+}
+
+
+#statsaniSP { 
+    left: 290px;
+    top: 1125px;
+    position: absolute;
+    width: 200px;
+    height: auto;
+    color: #B8A98F;
+}
+
+#textaniSP {
+    left: 290px;
+    top: 1230px;
+    position: absolute;
+    width: 200px;
+    height: auto;
+    color: #B8A98F;
+    font-size: 13px;
+}
+
+
+#placaaniSP {
+    left: 93px;
+    top: 1100px;
+    position: absolute;
+    color: #B8A98F;
+    font-size: 15px;
+    text-align: center;
+    border: 2px solid #1B1715;
+    border-radius: 3px;
+    background-color: #1B1715;
+    width: 180px;
+}
+
+#tituloaniSP {
+    left: 75px;
+    top: 1000px;
+    position: absolute;
+    color: #D4AF37;
+    font-size: 15px;
+    text-align: center;
+    border: 2px solid #1B1715;
+    border-radius: 5px;
+    background-color: #1B1715;
+    width: 85%;
+}
+
+#psdescricaoaniSP {
+    left: 970px;
+    top: 1100px;
+    color: #B8A98F;
+    font-size: 15px;
+    position: absolute;
+    border: 2px solid #1B1715;
+    border-radius: 3px;
+    background-color: #1B1715;
+    width: 100px;
+    text-align: center;
+    line-height: 16px;
+}
+
+#descricaoaniSP {
+    left: 870px;
+    top: 1135px;
+    color: #B8A98F;
+    font-size: 13px;
+    position: absolute;
+    border: 2px solid #1B1715;
+    border-radius: 4px;
+    background-color: #1B1715;
+    width: 315px;
+    text-align: start;
+    line-height: 16px;
+}
+#pshistoriaaniSP {
+    left: 620px;
+    top: 1100px;
+    color: #B8A98F;
+    font-size: 15px;
+    position: absolute;
+    border: 2px solid #1B1715;
+    border-radius: 3px;
+    background-color: #1B1715;
+    width: 100px;
+    text-align: center;
+    line-height: 16px;
+}
+
+#historiaaniSP {
+    left: 520px;
+    top: 1135px;
+    color: #B8A98F;
+    font-size: 13px;
+    position: absolute;
+    border: 2px solid #1B1715;
+    border-radius: 4px;
+    background-color: #1B1715;
+    width: 315px;
+    text-align: start;
+    line-height: 16px;
+}
+
+#anitank {
+    left: 80px;
+    top: 1640px;
+    position: absolute;
+    width: 200px;
+    height: auto;
+    border: 3px solid rgb(54, 32, 75);
+}
+
+#statsaniTN { 
+    left: 260px;
+    top: 1621px;
+    position: absolute;
+    width: 200px;
+    height: auto;
+    color: #B8A98F;
+    text-align: right
+}
+
+#textaniTN {
+    left: 290px;
+    top: 1710px;
+    position: absolute;
+    width: 200px;
+    height: auto;
+    color: #B8A98F;
+    font-size: 13px;
+}
+
+
+#placaaniTN {
+    left: 93px;
+    top: 1595px;
+    position: absolute;
+    color: #B8A98F;
+    font-size: 15px;
+    text-align: center;
+    border: 2px solid #1B1715;
+    border-radius: 3px;
+    background-color: #1B1715;
+    width: 180px;
+}
+
+#tituloaniTN {
+    left: 75px;
+    top: 1500px;
+    position: absolute;
+    color: #D4AF37;
+    font-size: 15px;
+    text-align: center;
+    border: 2px solid #1B1715;
+    border-radius: 5px;
+    background-color: #1B1715;
+    width: 85%;
+}
+
+#psdescricaoaniTN {
+    left: 970px;
+    top: 1595px;
+    color: #B8A98F;
+    font-size: 15px;
+    position: absolute;
+    border: 2px solid #1B1715;
+    border-radius: 3px;
+    background-color: #1B1715;
+    width: 100px;
+    text-align: center;
+    line-height: 16px;
+}
+
+#descricaoaniTN {
+    left: 870px;
+    top: 1625px;
+    color: #B8A98F;
+    font-size: 13px;
+    position: absolute;
+    border: 2px solid #1B1715;
+    border-radius: 4px;
+    background-color: #1B1715;
+    width: 315px;
+    text-align: start;
+    line-height: 16px;
+}
+
+#pshistoriaaniTN {
+    left: 620px;
+    top: 1595px;
+    color: #B8A98F;
+    font-size: 15px;
+    position: absolute;
+    border: 2px solid #1B1715;
+    border-radius: 3px;
+    background-color: #1B1715;
+    width: 100px;
+    text-align: center;
+    line-height: 16px;
+}
+
+#historiaaniTN {
+    left: 520px;
+    top: 1630px;
+    color: #B8A98F;
+    font-size: 13px;
+    position: absolute;
+    border: 2px solid #1B1715;
+    border-radius: 4px;
+    background-color: #1B1715;
+    width: 315px;
+    text-align: start;
+    line-height: 16px;
+
+}
