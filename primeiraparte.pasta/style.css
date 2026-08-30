@@ -532,7 +532,7 @@ body {
 
 #creditoscadu {
     left: 103px;
-    top: 2070px;
+    top: 2050px;
     position: absolute;
     color: #B8A98F;
     font-size: 10px;
@@ -540,8 +540,8 @@ body {
 }
 
 #creditoscharge {
-    left: 850px;
-    top: 2070px;
+    left: 1400px;
+    top: 2050px;
     position: absolute;
     color: #B8A98F;
     font-size: 10px;
@@ -881,5 +881,148 @@ body {
     width: 315px;
     text-align: start;
     line-height: 16px;
+
+}
+
+#animagia {
+    left: 80px;
+    top: 2180px;
+    position: absolute;
+    width: 200px;
+    height: auto;
+    border: 3px solid rgb(54, 32, 75);
+}
+
+#statsaniMG { 
+    left: 270px;
+    top: 2160px;
+    position: absolute;
+    width: 200px;
+    height: auto;
+    color: #B8A98F;
+    text-align: right
+}
+
+#textaniMG {
+    left: 290px;
+    top: 2245px;
+    position: absolute;
+    width: 200px;
+    height: auto;
+    color: #B8A98F;
+    font-size: 13px;
+}
+
+
+#placaaniMG {
+    left: 93px;
+    top: 2135px;
+    position: absolute;
+    color: #B8A98F;
+    font-size: 15px;
+    text-align: center;
+    border: 2px solid #1B1715;
+    border-radius: 3px;
+    background-color: #1B1715;
+    width: 180px;
+}
+
+#tituloaniMG {
+    left: 75px;
+    top: 2000px;
+    position: absolute;
+    color: #D4AF37;
+    font-size: 15px;
+    text-align: center;
+    border: 2px solid #1B1715;
+    border-radius: 5px;
+    background-color: #1B1715;
+    width: 85%;
+}
+
+#psdescricaoaniMG {
+    left: 970px;
+    top: 2135px;
+    color: #B8A98F;
+    font-size: 15px;
+    position: absolute;
+    border: 2px solid #1B1715;
+    border-radius: 3px;
+    background-color: #1B1715;
+    width: 100px;
+    text-align: center;
+    line-height: 16px;
+}
+
+#descricaoaniMG {
+    left: 870px;
+    top: 2165px;
+    color: #B8A98F;
+    font-size: 13px;
+    position: absolute;
+    border: 2px solid #1B1715;
+    border-radius: 4px;
+    background-color: #1B1715;
+    width: 315px;
+    text-align: start;
+    line-height: 16px;
+}
+
+#pshistoriaaniMG {
+    left: 620px;
+    top: 2135px;
+    color: #B8A98F;
+    font-size: 15px;
+    position: absolute;
+    border: 2px solid #1B1715;
+    border-radius: 3px;
+    background-color: #1B1715;
+    width: 100px;
+    text-align: center;
+    line-height: 16px;
+}
+
+#historiaaniMG {
+    left: 520px;
+    top: 2165px;
+    color: #B8A98F;
+    font-size: 13px;
+    position: absolute;
+    border: 2px solid #1B1715;
+    border-radius: 4px;
+    background-color: #1B1715;
+    width: 315px;
+    text-align: start;
+    line-height: 16px;
+
+}
+
+#logo3 {
+    left: 0px;
+    top: 2550px;
+    position: absolute;
+    color: #D4AF37;
+    border: 2px solid #3d342f;
+    border-radius: 3px;
+    background-color: #1B1715;
+    width: 99.7%;
+    height: 75px;
+}
+
+#creditoscadu2 {
+    left: 103px;
+    top: 2600px;
+    position: absolute;
+    color: #B8A98F;
+    font-size: 10px;
+
+}
+
+#creditoscharge2 {
+    left: 1400px;
+    top: 2600px;
+    position: absolute;
+    color: #B8A98F;
+    font-size: 10px;
 
 }

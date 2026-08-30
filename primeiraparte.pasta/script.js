@@ -35,6 +35,9 @@ psdescricaoaniMG.style.display = "none";
 descricaoaniMG.style.display = "none";
 pshistoriaaniMG.style.display = "none";
 historiaaniMG.style.display = "none";
+logo3.style.display = "none";
+creditoscadu2.style.display = "none";
+creditoscharge2.style.display = "none";
 
 let botaopi = document.getElementById("pi");
 botaopi.onclick = function() {
@@ -102,8 +105,23 @@ nexosbotao.onclick = function() {
     descricaoaniTN.style.display = "block";
     pshistoriaaniTN.style.display = "block";
     historiaaniTN.style.display = "block";
+    animagia.style.display = "block"
+    statsaniMG.style.display = "block";
+    textaniMG.style.display = "block";
+    placaaniMG.style.display = "block";
+    tituloaniMG.style.display = "block";
+    psdescricaoaniMG.style.display = "block";
+    descricaoaniMG.style.display = "block";
+    pshistoriaaniMG.style.display = "block";
+    historiaaniMG.style.display = "block";
+    logo2.style.display = "none";
+    creditoscadu.style.display = "none";
+    creditoscharge.style.display = "none";    
     botaonexosmostrar.style.display = "none";
     botaonexosvoltar.style.display = "block";
+    logo3.style.display = "block";
+    creditoscadu2.style.display = "block";
+    creditoscharge2.style.display = "block";
 
 
     
@@ -143,7 +161,7 @@ nexosbotao2.onclick = function() {
     descricaoaniBT.style.display = "none";
     pshistoriaaniBT.style.display = "none";
     historiaaniBT.style.display = "none";
-        anispeed.style.display = "none"
+    anispeed.style.display = "none"
     statsaniSP.style.display = "none";
     textaniSP.style.display = "none";
     placaaniSP.style.display = "none";
@@ -152,9 +170,41 @@ nexosbotao2.onclick = function() {
     descricaoaniSP.style.display = "none";
     pshistoriaaniSP.style.display = "none";
     historiaaniSP.style.display = "none";
+    anitank.style.display = "none"
+    statsaniTN.style.display = "none";
+    textaniTN.style.display = "none";
+    placaaniTN.style.display = "none";
+    tituloaniTN.style.display = "none";
+    psdescricaoaniTN.style.display = "none";
+    descricaoaniTN.style.display = "none";
+    pshistoriaaniTN.style.display = "none";
+    historiaaniTN.style.display = "none";
     botaonexosmostrar.style.display = "block";
     botaonexosvoltar.style.display = "none";
-
-    
+    troerfake.style.display = "block";
+    statstroer.style.display = "block";
+    texttroer.style.display = "block";
+    texttroer2.style.display = "block";
+    placatroer.style.display = "block";
+    titulotroer.style.display = "block";
+    psdescricaotroer.style.display = "block";
+    descricaotroer.style.display = "block";
+    pshistoriatroer.style.display = "block";
+    historiatroer.style.display = "block";
+    logo2.style.display = "block";
+    creditoscadu.style.display = "block";
+    creditoscharge.style.display = "block";
+    animagia.style.display = "none"
+    statsaniMG.style.display = "none";
+    textaniMG.style.display = "none";
+    placaaniMG.style.display = "none";
+    tituloaniMG.style.display = "none";
+    psdescricaoaniMG.style.display = "none";
+    descricaoaniMG.style.display = "none";
+    pshistoriaaniMG.style.display = "none";
+    historiaaniMG.style.display = "none";
+    logo3.style.display = "none";
+    creditoscadu2.style.display = "none";
+    creditoscharge2.style.display = "none";
 
 };
