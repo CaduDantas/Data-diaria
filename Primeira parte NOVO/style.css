@@ -4,44 +4,41 @@
 
 }
 
-
-
-
 body {
-    background-color: #0f0f0f
+    background-color: #0f0f0f;
 }
 
 /* =========================
    BOTÕES DO TOPO
    ========================= */
 
-#ParteDosBotoesSuperiores {
+ #BotoesAcima {
+
+    display: flex;
 
     background-color: #1B1715;
 
-    display: flex;
-
-    width: 100%;
+    border: 2px solid #3d342f;
 
     height: 70px;
 
-    border: 2px solid #3d342f;
-
     border-radius: 5px;
 
-    }
+    margin: auto;
+
+ }
 
     #botoes {
 
-    padding-left: 30px;
+        display: flex;
 
-    display: flex;
+        gap: 30px;
 
-    gap: 50px;
-
+        padding-left: 20px;
     }
 
     #botoes button {
+
     font-size: 20px;
 
     background-color: #1B1715;
@@ -55,54 +52,45 @@ body {
     }
 
 /* =========================
-   TITULO PAGINA INICIAL
+   PAGINA INICIAL
    ========================= */
 
+   /* =========================
+   TITULO E SUBTITULO
+   ========================= */
 
-#paginainicialabaixodosbotoes {
+#primeiraparte {
 
-    gap: 100px;
+    width: 95%;
 
     display: flex;
 
-    flex-direction: row;
+    max-width: 1300px;
 
-    margin-top: 30px;
+    gap: 5%;
 
-    width: fit-content;
-
-    height: auto;
-
-
-    border: 1px solid #fd0000;
-
+    margin: auto;
 
 }
 
+#titulo-descricao {
 
-
-#tituloedescricao {
+    width: 70%;
 
     display: flex;
 
     flex-direction: column;
-
-    gap: 20px;
-
-    border: 1px solid #fd0000;
-
-
 }
 
-#titulo-e--sua-descricao {
+#titulo-subtitulo {
+    
     display: flex;
 
     flex-direction: column;
 
-    max-width: 800px;
 }
 
-#titulodosite {
+#titulo {
 
     width: 100%;
 
@@ -110,35 +98,41 @@ body {
 
     padding-left: 10px;
 
-    font-size: 50px;
+    font-size: 54px;
 
     margin: 0;
-
+    
+    margin-top: 30px;
 }
 
-#descricaotitulodosite {
+#subtitulo {
+    width: 100%;
 
-    color: #B8A98F;
+    color: #E5D9C3;
+
+    padding-left: 10px;
+
+    font-size: 15px;
 
     text-align: right;
 
-    width: 100%;
+    margin: 0;    
 
-    margin: 0;
 }
 
-#paidescricaotitulo{
+/* =========================
+   DESCRICAO PAGINA INICIAL
+   ========================= */
+
+#tdescricao-descricao {
 
     display: flex;
 
     flex-direction: column;
 
-    gap: 10px;
-
-    border: 2px solid #fd0000;
 }
 
-#psdescricaotitulo {
+#tdescricao {
 
     width: 100%;
 
@@ -147,26 +141,20 @@ body {
     border-radius: 3px;
     
     background-color: #1B1715;  
-    
+
     text-align: center;
 
     color: #E5D9C3;
 
-    font-size: 30px;
-
-    margin: auto;
-
-    height: auto;
+    font-size: 25px;
 
 }
 
-#descricaotitulo {
+#descricao {
 
     padding-left: 10px;
 
     padding-right: 10px;
-
-    min-width: 750px;
 
     width: 100%;
 
@@ -174,52 +162,33 @@ body {
 
     border-radius: 3px;
     
-    background-color: #1B1715;
+    background-color: #1B1715;  
+
+    text-align: justify;
 
     color: #E5D9C3;
 
-    margin: auto;
-
-    font-size: 17px;
-
-
+    font-size: 15px;
 }
 
+/* =========================
+   DESCRICAO PAGINA INICIAL
+   ========================= */
+
 #PCD {
+
+    width: 25%;
 
     display: flex;
 
     flex-direction: column;
 
-    width: fit-content;
-
-    min-width: 330px;
-
-    max-height: 400px;
-
     margin-top: 90px;
 
-    gap: 20px;
-
+    gap: 10px;
 }
 
-
-#huntemonster {
-
-
-    width: 70%;
-
-    height: auto;
-
-    border: 3px solid rgb(54, 32, 75);
-
-    margin: auto;
-
-}
-
-#placapcd {    
-
-    height: auto;
+#pcdplaca {
 
     border: 2px solid #3d342f;
 
@@ -231,9 +200,21 @@ body {
 
     font-size: 20px;
 
+    text-align: center;
+
     width: 70%;
 
-    text-align: center;
+    margin: auto;
+
+}
+
+#huntemonster {
+
+    width: 70%;
+
+    height: auto;
+
+    border: 3px solid rgb(54, 32, 75);
 
     margin: auto;
 }
