@@ -114,7 +114,7 @@ body {
 
     font-size: 15px;
 
-    text-align: right;
+    text-align: left;
 
     margin: 0;    
 
@@ -206,6 +206,8 @@ body {
 
     margin: auto;
 
+    padding: 5px;
+
 }
 
 #huntemonster {
@@ -223,7 +225,7 @@ body {
    O CELESTIAL NEXOX
    ========================= */
 
-   #titulonexox {
+#titulonexox {
 
     text-align: center;
 
@@ -247,19 +249,782 @@ body {
 
  #espnexox {
 
+    width: 95%;
+
+    max-width: 100%;
+
     display: flex;
+
+    margin: auto;
+
+    margin-left: 40px;
+
+    gap: 5%;
+
+    margin-top: 120px;
 
    }
 
 
 
-   #img-placa {
-
-
+   #imagem-statsnexox {
 
     display: flex;
 
-    flex-direction: column
+    width: 30%;
+
+    gap: 2%;
+
+    margin-top: 0;
+
+   }
+
+   
+ @media (min-width: 2000px) {
+   #imagem-statsnexox {
+
+    display: flex;
+
+    width: 30%;
+
+    gap: 2%;
+
+    height: 600px;
+
+    width: 600px;
+
+   }
+
+}
+
+   #img-placanexox {
+
+    width: 70%;
+
+    display: flex;
+
+    flex-direction: column;
+
+    margin-top: 0;
 
 
    }
+
+   #placanexox {
+
+    text-align: center;
+
+    border: 2px solid #3d342f;
+
+    border-radius: 3px;
+    
+    background-color: #1B1715;
+
+    color: #E5D9C3;
+
+    font-size: 25px;
+
+    width: 100%;
+
+    padding: 10px;
+
+    margin-top: 0;
+
+   }
+
+
+    #stats-textnexox {
+
+    display: flex;
+
+    flex-direction: column;
+
+    width: 30%;
+
+    color: #E5D9C3;
+
+    margin: auto 0 0;
+
+    height: 80%;
+
+    font-size: 16px;
+
+    }
+
+ #psdescricao-descricaonexox {
+
+    display: flex;
+
+    flex-direction: column;
+
+    text-align: start;
+
+    border-radius: 3px;
+
+    color: #E5D9C3;
+
+    width: 30%;
+
+    gap: 2%;
+
+    }
+
+    #psdescricaonexox {
+
+    border: 2px solid #3d342f;
+
+    border-radius: 3px;
+    
+    background-color: #1B1715;
+
+    text-align: center;
+
+    padding: 10px;
+
+    margin-top: 0;
+
+
+    }
+
+    #descricaonexox {
+
+    border: 2px solid #3d342f;
+
+    border-radius: 3px;
+    
+    background-color: #1B1715;
+
+    text-align: start;
+
+    padding: 10px;
+    
+    }
+
+    #pshabilidadesnexox {
+
+    border: 2px solid #3d342f;
+
+    border-radius: 3px;
+    
+    background-color: #1B1715;
+
+    text-align: center;
+
+    padding: 10px;
+
+    margin-top: 0;
+
+
+    }
+
+    #habilidadesnexox {
+
+    border: 2px solid #3d342f;
+
+    border-radius: 3px;
+    
+    background-color: #1B1715;
+
+    text-align: start;
+
+    padding: 10px;
+    
+    }
+
+    #pshistoria-historianexox {
+
+        width: 35%;
+
+        display: flex;
+
+        flex-direction: column;
+
+        color: #E5D9C3;
+
+    }
+
+    #pshistorianexox {
+
+    border: 2px solid #3d342f;
+
+    border-radius: 3px;
+    
+    background-color: #1B1715;
+
+    text-align: center;
+
+    padding: 10px;
+
+    margin-top: 0;
+
+    }
+
+    #historianexox {
+
+    border: 2px solid #3d342f;
+
+    border-radius: 3px;
+    
+    background-color: #1B1715;
+
+    text-align: start;
+
+    padding: 10px;
+
+    font-size: 17px;
+
+    }
+
+    /* =========================
+   O CELESTIAL PRIME
+   ========================= */
+
+
+    #tituloprime {
+
+    text-align: center;
+
+    margin: auto;
+
+    margin-top: 150px;
+
+    border: 2px solid #3d342f;
+
+    border-radius: 3px;
+    
+    background-color: #1B1715;
+
+    color: #E5D9C3;
+
+    font-size: 25px;
+
+    width: 95%;
+    
+   }
+
+ #espprime {
+
+    width: 95%;
+
+    max-width: 100%;
+
+    display: flex;
+
+    margin: auto;
+
+    margin-left: 40px;
+
+    gap: 5%;
+
+    margin-top: 120px;
+
+   }
+
+
+
+   #imagem-statsprime {
+
+    display: flex;
+
+    width: 30%;
+
+    gap: 2%;
+
+    margin-top: 0;
+
+   }
+
+   
+ @media (min-width: 2000px) {
+   #imagem-statsprime {
+
+    display: flex;
+
+    width: 30%;
+
+    gap: 2%;
+
+    height: 600px;
+
+    width: 600px;
+
+   }
+
+}
+
+   #img-placaprime {
+
+    width: 70%;
+
+    display: flex;
+
+    flex-direction: column;
+
+    margin-top: 0;
+
+
+   }
+
+   #placaprime {
+
+    text-align: center;
+
+    border: 2px solid #3d342f;
+
+    border-radius: 3px;
+    
+    background-color: #1B1715;
+
+    color: #E5D9C3;
+
+    font-size: 25px;
+
+    width: 100%;
+
+    padding: 10px;
+
+    margin-top: 0;
+
+   }
+
+   #stats-textprime {
+
+    display: flex;
+
+    flex-direction: column;
+
+    width: 30%;
+
+    color: #E5D9C3;
+
+    margin: auto 0 0;
+
+    height: 80%;
+
+    font-size: 16px;
+
+    }
+
+
+ #psdescricao-descricaoprime {
+
+    display: flex;
+
+    flex-direction: column;
+
+    text-align: start;
+
+    border-radius: 3px;
+
+    color: #E5D9C3;
+
+    width: 30%;
+
+    gap: 2%;
+
+    }
+
+    #psdescricaoprime{
+
+    border: 2px solid #3d342f;
+
+    border-radius: 3px;
+    
+    background-color: #1B1715;
+
+    text-align: center;
+
+    padding: 10px;
+
+    margin-top: 0;
+
+
+    }
+
+    #descricaoprime {
+
+    border: 2px solid #3d342f;
+
+    border-radius: 3px;
+    
+    background-color: #1B1715;
+
+    text-align: start;
+
+    padding: 10px;
+    
+    }
+
+    #pshabilidadesprime{
+
+    border: 2px solid #3d342f;
+
+    border-radius: 3px;
+    
+    background-color: #1B1715;
+
+    text-align: center;
+
+    padding: 10px;
+
+    margin-top: 0;
+
+
+    }
+
+    #habilidadesprime {
+
+    border: 2px solid #3d342f;
+
+    border-radius: 3px;
+    
+    background-color: #1B1715;
+
+    text-align: start;
+
+    padding: 10px;
+    
+    }
+
+    #pshistoria-historiaprime {
+
+        width: 35%;
+
+        display: flex;
+
+        flex-direction: column;
+
+        color: #E5D9C3;
+
+    }
+
+    #pshistoriaprime {
+
+    border: 2px solid #3d342f;
+
+    border-radius: 3px;
+    
+    background-color: #1B1715;
+
+    text-align: center;
+
+    padding: 10px;
+
+    margin-top: 0;
+
+    }
+
+    #historiaprime {
+
+    border: 2px solid #3d342f;
+
+    border-radius: 3px;
+    
+    background-color: #1B1715;
+
+    text-align: start;
+
+    padding: 10px;
+
+    font-size: 17px;
+
+    }
+
+   /* =========================
+   O CELESTIAL TROER
+   ========================= */
+
+
+    #titulotroer {
+
+    text-align: center;
+
+    margin: auto;
+
+    margin-top: 150px;
+
+    border: 2px solid #3d342f;
+
+    border-radius: 3px;
+    
+    background-color: #1B1715;
+
+    color: #E5D9C3;
+
+    font-size: 25px;
+
+    width: 95%;
+    
+   }
+
+ #esptroer {
+
+    width: 95%;
+
+    max-width: 100%;
+
+    display: flex;
+
+    margin: auto;
+
+    margin-left: 40px;
+
+    gap: 5%;
+
+    margin-top: 120px;
+
+   }
+
+
+
+   #imagem-statstroer {
+
+    display: flex;
+
+    width: 30%;
+
+    gap: 2%;
+
+    margin-top: 0;
+
+   }
+
+   
+ @media (min-width: 2000px) {
+   #imagem-statstroer {
+
+    display: flex;
+
+    width: 30%;
+
+    gap: 2%;
+
+    height: 600px;
+
+    width: 600px;
+
+   }
+
+}
+
+   #img-placatroer {
+
+    width: 70%;
+
+    display: flex;
+
+    flex-direction: column;
+
+    margin-top: 0;
+
+
+   }
+
+   #placatroer {
+
+    text-align: center;
+
+    border: 2px solid #3d342f;
+
+    border-radius: 3px;
+    
+    background-color: #1B1715;
+
+    color: #E5D9C3;
+
+    font-size: 25px;
+
+    width: 100%;
+
+    padding: 10px;
+
+    margin-top: 0;
+
+   }
+
+   #stats-texttroer {
+
+    display: flex;
+
+    flex-direction: column;
+
+    width: 30%;
+
+    color: #E5D9C3;
+
+    margin: auto 0 0;
+
+    height: 80%;
+
+    font-size: 18px;
+
+    }
+
+    #textotroer {
+
+        font-size: 16px;
+
+    }
+
+ #psdescricao-descricaotroer {
+
+    display: flex;
+
+    flex-direction: column;
+
+    text-align: start;
+
+    border-radius: 3px;
+
+    color: #E5D9C3;
+
+    width: 30%;
+
+    gap: 2%;
+
+    }
+
+    #psdescricaotroer{
+
+    border: 2px solid #3d342f;
+
+    border-radius: 3px;
+    
+    background-color: #1B1715;
+
+    text-align: center;
+
+    padding: 10px;
+
+    margin-top: 0;
+
+
+    }
+
+    #descricaotroer {
+
+    border: 2px solid #3d342f;
+
+    border-radius: 3px;
+    
+    background-color: #1B1715;
+
+    text-align: start;
+
+    padding: 10px;
+    
+    }
+
+
+    #pshabilidadestroer{
+
+    border: 2px solid #3d342f;
+
+    border-radius: 3px;
+    
+    background-color: #1B1715;
+
+    text-align: center;
+
+    padding: 10px;
+
+    margin-top: 0;
+
+
+    }
+
+    #habilidadestroer {
+
+    border: 2px solid #3d342f;
+
+    border-radius: 3px;
+    
+    background-color: #1B1715;
+
+    text-align: start;
+
+    padding: 10px;
+    
+    }
+
+    #pshistoria-historiatroer {
+
+        width: 35%;
+
+        display: flex;
+
+        flex-direction: column;
+
+        color: #E5D9C3;
+
+    }
+
+    #pshistoriatroer {
+
+    border: 2px solid #3d342f;
+
+    border-radius: 3px;
+    
+    background-color: #1B1715;
+
+    text-align: center;
+
+    padding: 10px;
+
+    margin-top: 0;
+
+    }
+
+    #historiatroer {
+
+    border: 2px solid #3d342f;
+
+    border-radius: 3px;
+    
+    background-color: #1B1715;
+
+    text-align: start;
+
+    padding: 10px;
+
+    font-size: 17px;
+
+    }
+
+
+    #creditosfinais {
+
+    width: 100%;
+
+    display: flex;
+
+    gap: 30%;
+
+    border: 2px solid #3d342f;
+
+    border-radius: 3px;
+    
+    background-color: #1B1715;
+
+    text-align: start;
+
+    padding: 10px;
+
+    color: #E5D9C3;
+
+    font-size: 9px;
+
+    margin-top: 150px;
+
+    }
+
+    #creditoscadu {
+
+        width: 40%
+        
+    }
+
+    #creditoscharge {
+
+        width: 40%
+    }
