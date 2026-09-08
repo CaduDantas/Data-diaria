@@ -1,1 +1,5 @@
-apenas para colocar ideias
+apenas para colocar ideias e objetivos
+
+criar a pagina com flex + gap + @media
+criar o site para todos os dispositivos
+criar o javascript dnv
