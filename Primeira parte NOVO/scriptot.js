@@ -1,8 +1,8 @@
-let  paginainicial = document.getElementById("paginainicial")
+let  index = document.getElementById("index")
 
-   paginainicial.onclick = function() {
+   index.onclick = function() {
 
-        window.location.href = "paginainicial.html";
+        window.location.href = "index.html";
 
     }    
 
@@ -14,11 +14,11 @@ let  historia = document.getElementById("historia")
 
     }
 
-let  index = document.getElementById("index")
+let  catalogo = document.getElementById("catalogo")
 
-    index.onclick = function() {
+    catalogo.onclick = function() {
 
-        window.location.href = "index.html";
+        window.location.href = "catalogo.html";
 
     }
 

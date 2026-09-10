@@ -162,10 +162,36 @@ body {
 
     flex-direction: column;
 
-    margin-top: 90px;
+    margin-top: 22%;
 
-    gap: 10px;
+    gap: 20px;
+
+    height: auto;
+
+    
+
 }
+
+@media (min-width:1205px) {
+    #PCD {
+
+        margin-top: 12%;
+
+    }
+
+
+}
+
+@media (min-width:1284px) {
+    #PCD {
+
+        margin-top: 8%;
+
+    }
+
+
+}
+
 
 #pcdplaca {
 
@@ -183,7 +209,7 @@ body {
 
     width: 70%;
 
-    margin: auto;
+    margin: 0;
 
     padding: 5px;
 
@@ -193,11 +219,11 @@ body {
 
     width: 70%;
 
-    height: auto;
+    height: 70%;
 
     border: 3px solid rgb(54, 32, 75);
 
-    margin: auto;
+    margin: 0;
 }
 
 /* =========================
@@ -333,6 +359,7 @@ body {
 
    }
 
+
    .placa {
 
     text-align: center;
@@ -355,7 +382,20 @@ body {
 
    }
 
+    .stats-carta {
 
+    width: 70%;
+
+    display: flex;
+
+    flex-direction: column;
+
+    margin-top: 0;
+
+
+   }
+
+   
     .stats-text {
 
     display: flex;
@@ -366,13 +406,64 @@ body {
 
     color: #E5D9C3;
 
-    margin: auto 0 0;
+    margin: 0;
 
-    height: 80%;
+    height: 50%;
 
-    font-size: 16px;
+    padding-top: 23%
 
     }
+
+    @media (min-width: 1100px) {
+        .stats-text {
+
+            padding-top: 20%
+
+        }
+    }
+
+    .stats-text1 {
+
+    display: flex;
+
+    flex-direction: column;
+
+    width: 30%;
+
+    color: #E5D9C3;
+
+    margin: 0;
+
+    height: 50%;
+
+    padding-top: 34%
+
+    }
+
+
+    .stats {
+
+        font-size: 14px;
+
+    }
+
+    @media (min-width: 1450px) {
+    .stats {
+
+        font-size: 24px;
+
+    }
+}
+
+
+   @media (min-width: 1100px) and (max-width: 1449px) {
+    .stats {
+
+        font-size: 18px;
+
+    }
+}
+    
 
  .psdescricao-descricao {
 
@@ -522,7 +613,7 @@ body {
 
     font-size: 9px;
 
-    margin-top: 150px;
+    margin-top: 200px;
 
     }
 
@@ -541,14 +632,47 @@ body {
 
     display: grid;
 
-    grid-template-columns: 1fr 1fr;
+   grid-template-columns: repeat(auto-fit(1, 1fr));
 
     gap: 20px;
 
     width: 100%;
+
+    flex-grow: 1;
 }
+
+
+
+@media (min-width: 1300px) {
+#os-annistates {
+
+    display: grid;
+
+   grid-template-columns: repeat(2, 1fr);
+
+    gap: 20px;
+
+    width: 100%;
+
+    flex-grow: 1;
+}
+
+}
+
 
 #os-annistates img {
 
-    width: 100%;
+    width: 140px;
+
+    flex-grow: 1;
+}
+
+@media (max-width: 1100px) {
+#os-annistates img {
+
+    width: 120px;
+
+    flex-grow: 1;
+}
+
 }
