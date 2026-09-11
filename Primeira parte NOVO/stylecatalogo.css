@@ -50,3 +50,53 @@ body {
     text-align: center;
 
     }
+
+
+.caixa {
+
+    border: 2px solid #3d342f;
+
+    border-radius: 3px;
+    
+    background-color: #1B1715;
+
+    color: #E5D9C3;
+
+}
+
+
+
+
+
+
+
+
+
+ .creditosfinais {
+
+    width: 100%;
+
+    display: flex;
+
+    gap: 30%;
+
+    text-align: start;
+
+    padding: 10px;
+
+    font-size: 9px;
+
+    margin-top: 200px;
+
+    }
+
+    #creditoscadu {
+
+        width: 40%
+        
+    }
+
+    #creditoscharge {
+
+        width: 40%
+    }

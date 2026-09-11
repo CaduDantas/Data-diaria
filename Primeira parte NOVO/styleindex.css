@@ -28,6 +28,19 @@ body {
 
  }
 
+  @media (max-width: 1380px) {
+
+#BotoesAcima {
+
+    height: 130px;
+
+
+ }
+   }
+
+
+
+
     .botoes {
 
         display: flex;
@@ -51,6 +64,16 @@ body {
 
     }
 
+    @media (max-width: 1380px) {
+
+ .botoes button {
+
+    font-size: 30px;
+
+
+ }
+   }
+
 /* =========================
    PAGINA INICIAL
    ========================= */
@@ -61,7 +84,7 @@ body {
 
 #primeiraparte {
 
-    width: 95%;
+    width: 100%;
 
     display: flex;
 
@@ -71,15 +94,22 @@ body {
 
     margin: auto;
 
+
+
+    margin-top: 30px;
+    
+
 }
 
 #titulo-descricao {
 
-    width: 70%;
+    width: 100%;
 
     display: flex;
 
     flex-direction: column;
+
+    gap: 10%
 }
 
 #titulo-subtitulo {
@@ -101,11 +131,10 @@ body {
     font-size: 53px;
 
     margin: 0;
-    
-    margin-top: 30px;
 }
 
 #subtitulo {
+
     width: 100%;
 
     color: #E5D9C3;
@@ -130,23 +159,15 @@ body {
 
     flex-direction: column;
 
+    gap: 5%
+
 }
 
 #tdescricao {
 
-    width: 100%;
+    width: 100%; 
 
-    border: 2px solid #3d342f;
-
-    border-radius: 3px;
-    
-    background-color: #1B1715;  
-
-    text-align: center;
-
-    color: #E5D9C3;
-
-    font-size: 25px;
+    margin-top: 0;
 
 }
 
@@ -154,89 +175,14 @@ body {
    DESCRICAO PAGINA INICIAL
    ========================= */
 
-#PCD {
-
-    width: 25%;
-
-    display: flex;
-
-    flex-direction: column;
-
-    margin-top: 22%;
-
-    gap: 20px;
-
-    height: auto;
-
-    
-
-}
-
-@media (min-width:1205px) {
-    #PCD {
-
-        margin-top: 12%;
-
-    }
 
 
-}
-
-@media (min-width:1284px) {
-    #PCD {
-
-        margin-top: 8%;
-
-    }
-
-
-}
-
-
-#pcdplaca {
-
-    border: 2px solid #3d342f;
-
-    border-radius: 3px;
-    
-    background-color: #1B1715;
-
-    color: #E5D9C3;
-
-    font-size: 20px;
-
-    text-align: center;
-
-    width: 70%;
-
-    margin: 0;
-
-    padding: 5px;
-
-}
-
-#huntemonster {
-
-    width: 70%;
-
-    height: 70%;
-
-    border: 3px solid rgb(54, 32, 75);
-
-    margin: 0;
-}
 
 /* =========================
    OS CELESTIAIS
    ========================= */
 
-   #titulodiferenciado {
-
-    text-align: center;
-
-    margin: auto;
-
-    margin-top: 150px;
+   .caixa {
 
     border: 2px solid #3d342f;
 
@@ -246,33 +192,8 @@ body {
 
     color: #E5D9C3;
 
-    font-size: 25px;
-
-    width: 95%;
-    
    }
 
-    #titulodiferenciado1 {
-
-    text-align: center;
-
-    margin: auto;
-
-    margin-top: 150px;
-
-    border: 2px solid #3d342f;
-
-    border-radius: 3px;
-    
-    background-color: #1B1715;
-
-    color: #E5D9C3;
-
-    font-size: 25px;
-
-    width: 95%;
-    
-   }
 
 .titulo {
 
@@ -281,14 +202,6 @@ body {
     margin: auto;
 
     margin-top: 150px;
-
-    border: 2px solid #3d342f;
-
-    border-radius: 3px;
-    
-    background-color: #1B1715;
-
-    color: #E5D9C3;
 
     font-size: 25px;
 
@@ -334,8 +247,6 @@ body {
 
     display: flex;
 
-    width: 30%;
-
     gap: 2%;
 
     height: 600px;
@@ -364,14 +275,6 @@ body {
 
     text-align: center;
 
-    border: 2px solid #3d342f;
-
-    border-radius: 3px;
-    
-    background-color: #1B1715;
-
-    color: #E5D9C3;
-
     font-size: 25px;
 
     width: 100%;
@@ -381,6 +284,7 @@ body {
     margin-top: 0;
 
    }
+
 
     .stats-carta {
 
@@ -465,7 +369,11 @@ body {
 }
     
 
- .psdescricao-descricao {
+
+
+
+
+    .ps-text {
 
     display: flex;
 
@@ -483,13 +391,8 @@ body {
 
     }
 
-    .psdescricao {
+    .pstext {
 
-    border: 2px solid #3d342f;
-
-    border-radius: 3px;
-    
-    background-color: #1B1715;
 
     text-align: center;
 
@@ -500,88 +403,8 @@ body {
 
     }
 
-    .descricao {
+    .textembaixops{
 
-    border: 2px solid #3d342f;
-
-    border-radius: 3px;
-    
-    background-color: #1B1715;
-
-    text-align: start;
-
-    padding: 10px;
-
-    color: #E5D9C3;
-    
-    }
-
-    .pshabilidades {
-
-    border: 2px solid #3d342f;
-
-    border-radius: 3px;
-    
-    background-color: #1B1715;
-
-    text-align: center;
-
-    padding: 10px;
-
-    margin-top: 0;
-
-
-    }
-
-    .habilidades {
-
-    border: 2px solid #3d342f;
-
-    border-radius: 3px;
-    
-    background-color: #1B1715;
-
-    text-align: start;
-
-    padding: 10px;
-    
-    }
-
-    .pshistoria-historia {
-
-        width: 35%;
-
-        display: flex;
-
-        flex-direction: column;
-
-        color: #E5D9C3;
-
-    }
-
-    .pshistoria {
-
-    border: 2px solid #3d342f;
-
-    border-radius: 3px;
-    
-    background-color: #1B1715;
-
-    text-align: center;
-
-    padding: 10px;
-
-    margin-top: 0;
-
-    }
-
-    .historia {
-
-    border: 2px solid #3d342f;
-
-    border-radius: 3px;
-    
-    background-color: #1B1715;
 
     text-align: start;
 
@@ -589,9 +412,10 @@ body {
 
     font-size: 17px;
 
+
     }
 
-    #creditosfinais {
+    .creditosfinais {
 
     width: 100%;
 
@@ -599,17 +423,9 @@ body {
 
     gap: 30%;
 
-    border: 2px solid #3d342f;
-
-    border-radius: 3px;
-    
-    background-color: #1B1715;
-
     text-align: start;
 
     padding: 10px;
-
-    color: #E5D9C3;
 
     font-size: 9px;
 
@@ -632,7 +448,7 @@ body {
 
     display: grid;
 
-   grid-template-columns: repeat(auto-fit(1, 1fr));
+   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
 
     gap: 20px;
 
