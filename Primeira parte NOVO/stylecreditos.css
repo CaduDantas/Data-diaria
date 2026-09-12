@@ -12,7 +12,7 @@ body {
    BOTÕES DO TOPO
    ========================= */
 
- #BotoesAcima {
+  #BotoesAcima {
 
     display: flex;
 
@@ -28,6 +28,19 @@ body {
 
  }
 
+  @media (max-width: 1380px) {
+
+#BotoesAcima {
+
+    height: 130px;
+
+
+ }
+   }
+
+
+
+
     .botoes {
 
         display: flex;
@@ -35,9 +48,11 @@ body {
         gap: 30px;
 
         padding-left: 20px;
+
+        
     }
 
-    .botoes button {
+    nav a {
 
     font-size: 20px;
 
@@ -47,9 +62,25 @@ body {
 
     color: #E5D9C3;
 
-    text-align: center;
+    margin: auto;
+
+    text-decoration: none;
 
     }
+
+    @media (max-width: 1380px) {
+
+ nav a {
+
+    font-size: 30px;
+
+
+ }
+   }
+
+   /* =========================
+   titulo
+   ========================= */
 
 .caixa {
 
@@ -63,6 +94,174 @@ body {
 
 }
 
+
+    .titulo-subtitulo {
+
+        display: flex;
+
+        flex-direction: column;
+
+        margin-top: 50px;
+
+        padding-left: 10%;
+
+    }
+
+    .titulo {
+
+    color: #D4AF37;
+
+    width: 100%;
+
+    font-size: 53px;
+
+    margin: 0;
+        
+    }
+
+    .subtitulo {
+
+    width: 100%;
+
+    color: #E5D9C3;
+
+    font-size: 15px;
+
+    text-align: left;
+
+    margin: 0; 
+
+    }
+
+    /* =========================
+   embaixo do titulo
+   ========================= */
+
+    .img-texto {
+
+        display: flex;
+
+        margin-top: 130px;
+
+        gap: 20px;
+
+    }
+
+
+    .img-placa {
+
+    display: flex;
+
+    flex-direction: column;
+
+    width: 30%;
+
+    border-radius: 3px;
+    
+    background-color: #1B1715;
+
+    color: #E5D9C3;
+
+
+
+
+   }
+
+    .placa {
+
+    text-align: center;
+
+    font-size: 25px;
+
+    width: 100%;
+
+    padding: 10px;
+
+    margin: 0;
+
+   }
+
+   .arplaca {
+
+    border: 5px solid #1d1036;
+
+   }
+
+   .carta {
+
+    border: 5px solid #1d1036;
+   }
+
+   .cadu {
+
+    border: 5px solid #604c1a;
+
+   }
+
+   .angello {
+
+    border: 5px solid #511515;
+
+   }
+
+   .placa-texto {
+
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 10px;
+
+   }
+
+   .texto {
+
+    padding: 10px;
+
+    font-size: 15px;
+   }
+
+ .redesociais {
+
+    color: #E5D9C3;
+
+    text-decoration: none;
+
+}
+
+#midiasocial {
+
+    display: grid;
+
+    grid-template-columns: repeat(auto-fit, minmax(20px, 1fr));
+
+    gap: 5px;
+}
+
+#cdu {
+
+    font-size: 15px;
+
+    background-color: #1B1715;
+
+    border: none;
+
+    color: #E5D9C3;
+
+}
+
+#cduvt {
+
+    margin-top: 150px;
+
+    font-size: 25px;
+
+     color: #E5D9C3;
+}
+
+
+   
+  
 
 
 

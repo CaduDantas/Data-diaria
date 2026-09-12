@@ -1,39 +1,20 @@
-let  index = document.getElementById("index")
+allangello.style.display = "none";
 
-   index.onclick = function() {
 
-        window.location.href = "index.html";
 
-    }    
+let  cdu = document.getElementById("cdu")
 
-let  historia = document.getElementById("historia")
-
-    historia.onclick = function() {
-
-        window.location.href = "historia.html";
-
-    }
-
-let  catalogo = document.getElementById("catalogo")
-
-    catalogo.onclick = function() {
-
-        window.location.href = "catalogo.html";
-
-    }
-
-let  OJ = document.getElementById("OJ")
-
-    OJ.onclick = function() {
-
-        window.location.href = "ot.html";
-
-    }
-
-let  creditos = document.getElementById("creditos")
-
-    creditos.onclick = function() {
+    cdu.onclick = function() {
         
-        window.location.href = "creditos.html";
+        allangello.style.display = "block";
+
+    }
+    
+
+let  cduvt = document.getElementById("cduvt")
+
+    cduvt.onclick = function() {
+        
+        allangello.style.display = "none";
 
     }

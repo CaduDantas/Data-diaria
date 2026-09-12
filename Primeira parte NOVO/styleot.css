@@ -11,7 +11,6 @@ body {
 /* =========================
    BOTÕES DO TOPO
    ========================= */
-
  #BotoesAcima {
 
     display: flex;
@@ -28,6 +27,19 @@ body {
 
  }
 
+  @media (max-width: 1380px) {
+
+#BotoesAcima {
+
+    height: 130px;
+
+
+ }
+   }
+
+
+
+
     .botoes {
 
         display: flex;
@@ -35,9 +47,11 @@ body {
         gap: 30px;
 
         padding-left: 20px;
+
+        
     }
 
-    .botoes button {
+    nav a {
 
     font-size: 20px;
 
@@ -47,11 +61,21 @@ body {
 
     color: #E5D9C3;
 
-    text-align: center;
+    margin: auto;
+
+    text-decoration: none;
 
     }
 
+    @media (max-width: 1380px) {
 
+ nav a {
+
+    font-size: 30px;
+
+
+ }
+   }
 
 
     .caixa {

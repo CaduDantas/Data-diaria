@@ -12,7 +12,7 @@ body {
    BOTÕES DO TOPO
    ========================= */
 
- #BotoesAcima {
+  #BotoesAcima {
 
     display: flex;
 
@@ -48,9 +48,11 @@ body {
         gap: 30px;
 
         padding-left: 20px;
+
+        
     }
 
-    .botoes button {
+    nav a {
 
     font-size: 20px;
 
@@ -60,13 +62,15 @@ body {
 
     color: #E5D9C3;
 
-    text-align: center;
+    margin: auto;
+
+    text-decoration: none;
 
     }
 
     @media (max-width: 1380px) {
 
- .botoes button {
+ nav a {
 
     font-size: 30px;
 
