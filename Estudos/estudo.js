@@ -1,29 +1,20 @@
+var txt1 = window.document.getElementById('txt1')
 
-    var usuario = ('cadu')
-    var senha = ('senha')
+var res = document.querySelector("div#ah")
 
-entrar.onclick = function() {
+var analisar = document.getElementById('analisar')
 
+analisar.onclick = function() {
 
-    var login = window.document.getElementById("txt1")
-    var senharr = window.document.getElementById("txt2")
+    var vel = Number(txt1.value)
 
-    var n1 = (login.value)
-    var n2 = (senharr.value)
+if (vel > 60) {
 
-    if (senha == n2 && usuario == n1) {
+    res.innerHTML = "<p>voce ultrapassou o limite de velocidade, voce foi <strong>multado</strong><p>"
 
-        alert("vc entrou na sua conta")
+}   else {
 
-    }
+    res.innerHTML = '<p>ta tranquilo, voce <strong>nao foi multado</strong> </p> '
+}
 
-    else {
-
-        alert('voce digitou algo errado')
-    }
-
-        
-
-    }
-
-
+}
