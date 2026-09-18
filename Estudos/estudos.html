@@ -6,21 +6,54 @@
     <link rel="stylesheet" href="estudo.css">
 </head>
 
-<body>
+<body onload="carregar()">
+<header>
 
-<h1>Voce foi multado?
-</h1>
+    <h1>Verificador de idade</h1>
 
-<input type="number" name="txt1" id="txt1" placeholder="Digite a velocidade"> 
+</header>
 
-<input type="button" value="analisar" id="analisar">
+<section>
 
-<div id="ah"></div>
+<div>
+
+    <p>Ano de Nascimento:
+<input type="number" name="txtano" id="txtano" min="0">
+
+<p>Sexo:
+
+<input type="radio" name="radsex" id="masc" checked>
+
+<label for="masc">Masculino</label>
+
+<input type="radio" name="radsex" id="femi">
+
+<label for="femi">feminino</label>
+</p>
+
+<p>
+    <input type="button" value="Verificar" onclick="verificar()">
+</p>
+<div>
+
+   
+</div>
+
+<div>
+    <h3 id="res"> preencha os dados acima</p>
+
+    <img id="imagem" src="fotos.jpg/manha.jpg" alt="manha">
 
 
+</div>
+
+</section>
 
 
+<footer>
 
+<p>@CaduNoCurso </p>
+</footer>
 
     
 

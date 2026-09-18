@@ -1,20 +1,20 @@
-var txt1 = window.document.getElementById('txt1')
+imagem.style.display = "none"
+function verificar() {
 
-var res = document.querySelector("div#ah")
 
-var analisar = document.getElementById('analisar')
+    var data = new Date()
+    var ano = data.getFullYear()
+    var botao = document.getElementById('txtano')
+    var res = document.getElementById('res')
+    var img = document.getElementById('imagem')
 
-analisar.onclick = function() {
+    var idadeinicial = Number(botao.value)
 
-    var vel = Number(txt1.value)
+    var idade = ano - idadeinicial
 
-if (vel > 60) {
+    res.innerHTML = `a sua idade e ${idade}`
+    img.innerHTML =  'src="fotos.jpg/manha.jpg'
 
-    res.innerHTML = "<p>voce ultrapassou o limite de velocidade, voce foi <strong>multado</strong><p>"
-
-}   else {
-
-    res.innerHTML = '<p>ta tranquilo, voce <strong>nao foi multado</strong> </p> '
-}
-
+    imagem.style.display = "block"
+    
 }

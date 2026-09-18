@@ -1,23 +1,44 @@
-.titulo {
+body {
 
-    color: black;
+    background-color: rgb(15, 53, 222);
 
-    font-size: 30px;
+    font: arial 15pt normal;
 }
 
-#area {
-    font: normal 20pt Arial;
+header {
 
-    background: rgb(81, 81, 163);
+color: white;
 
-    color: white;
+text-align: center;
+}
 
-    width: 200px;
+section {
 
-    height: 200px;
 
-    line-height: 200px;
+    margin: auto;
 
-    text-align: center;
+    background-color: rgb(148, 133, 224);
 
+    padding-left: 15px;
+
+    width: 500px;
+
+    border-radius: 10px;
+
+    box-shadow: 5px 5px 10px rgb(24, 21, 21);
+
+}
+
+footer {
+
+color: white;
+
+text-align: center;
+
+font-style: italic;
+}
+
+div {
+
+    padding: 5px;
 }
